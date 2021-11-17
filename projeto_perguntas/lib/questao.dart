@@ -10,15 +10,13 @@ class Questao extends StatelessWidget { //componente Questao
     return Container(
       width: double.infinity,
       margin: EdgeInsets.all(20), //margem de cima
-      color: Colors.purple[50],
       child: Text(
         texto,
         style: TextStyle(
         color: Colors.black54,
         fontSize: 28),
         textAlign: TextAlign.center,//alinhando o texto no centro
-        ),
+      ),
     );
-
   }
 }
